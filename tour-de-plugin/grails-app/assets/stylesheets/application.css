@@ -9,5 +9,6 @@
 *
 *= require bootstrap-all.css
 *= require font-awesome-all.css
+*= require datepicker.css
 *= require_self
 */

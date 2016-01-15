@@ -7,6 +7,7 @@
 //
 //= require jquery-2.1.3.js
 //= require bootstrap-all.js
+//= require datepicker.js
 //= require_self
 
 if (typeof jQuery !== 'undefined') {

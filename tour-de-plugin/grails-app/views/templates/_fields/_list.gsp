@@ -5,4 +5,3 @@
         <div class="col-xs-9">${body(p)}</div>
     </div>
 </g:each>
-
