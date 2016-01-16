@@ -3,6 +3,7 @@ package tour
 class Team {
     String name
     String description
+    Country country
 
     String toString() {
         name
@@ -10,6 +11,7 @@ class Team {
 
     static constraints = {
         description nullable: true
+        country nullable: true
     }
 
     static hasMany = [riders: Rider]

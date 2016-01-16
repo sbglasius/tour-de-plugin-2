@@ -15,5 +15,5 @@ class Rider {
         weight nullable: true
     }
 
-    static belongsTo = [team: Team]
+//    static belongsTo = [team: Team]
 }
