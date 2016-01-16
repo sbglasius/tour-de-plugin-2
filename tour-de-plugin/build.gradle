@@ -83,9 +83,9 @@ dependencies {
     compile "org.grails.plugins:greenmail:2.0.0-SNAPSHOT"
     compile "org.grails.plugins:grails3-i18n-enums:2.0.0"
     compile 'org.grails.plugins:spring-security-core:3.0.3'
+    compile 'org.grails.plugins:quartz:2.0.5'
 
     runtime "org.grails.plugins:asset-pipeline"
-
 
     testCompile "org.grails:grails-plugin-testing"
     testCompile "org.grails.plugins:geb"

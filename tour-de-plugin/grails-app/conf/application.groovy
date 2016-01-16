@@ -59,3 +59,4 @@ grails.plugin.springsecurity.roleHierarchy = '''
    ROLE_ADMIN > ROLE_USER
    ROLE_ADMIN > ROLE_DB_CONSOLE
 '''
+quartz.jdbcStore=false
