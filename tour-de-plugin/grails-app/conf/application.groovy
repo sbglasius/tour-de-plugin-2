@@ -42,7 +42,9 @@ grails.plugin.springsecurity.controllerAnnotations.staticRules = [
 	[pattern: '/**/js/**',       access: ['permitAll']],
 	[pattern: '/**/css/**',      access: ['permitAll']],
 	[pattern: '/**/images/**',   access: ['permitAll']],
-	[pattern: '/**/favicon.ico', access: ['permitAll']]
+	[pattern: '/**/favicon.ico', access: ['permitAll']],
+	[pattern: '/dbconsole/**',   access: ['ROLE_DB_CONSOLE']],
+	[pattern: '/greenmail/**',   access: ['permitAll']],
 ]
 
 grails.plugin.springsecurity.filterChain.chainMap = [
@@ -55,4 +57,5 @@ grails.plugin.springsecurity.filterChain.chainMap = [
 ]
 grails.plugin.springsecurity.roleHierarchy = '''
    ROLE_ADMIN > ROLE_USER
+   ROLE_ADMIN > ROLE_DB_CONSOLE
 '''
